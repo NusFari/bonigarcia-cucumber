@@ -51,6 +51,7 @@ public class ShopAllSteps {
     public void user_navigate_to_check_out_page() {
         new NavigationBar(driver)
                 .navigateToGuestCheckout();
+        LOGGER.info("Navigated to check out Page");
 
     }
 
